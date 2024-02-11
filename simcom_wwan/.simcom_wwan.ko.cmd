@@ -1,0 +1,1 @@
+cmd_/home/uas-dtu/simcom_wwan/simcom_wwan.ko := ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/uas-dtu/simcom_wwan/simcom_wwan.ko /home/uas-dtu/simcom_wwan/simcom_wwan.o /home/uas-dtu/simcom_wwan/simcom_wwan.mod.o ;  true
